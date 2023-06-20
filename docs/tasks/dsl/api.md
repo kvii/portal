@@ -53,7 +53,7 @@ service user {
 	// 请求方法为 post
 	// 路由为 /user/login
 	// 请求体为 LoginReq
-	// 响应体为 LoginResp，响应体必须有 returns 关键字修饰
+	// 响应体为 LoginResp，响应体必须由 returns 关键字修饰
 	post /user/login (LoginReq) returns (LoginResp)
 }
 
